@@ -1,0 +1,217 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(31, 15, 114); 
+    text-align: center;
+   /* background-image: url("itsAmovie.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;*/
+}
+
+#home {
+    background-color: rgb(129, 48, 206); 
+    background-image: url("itsAmovie.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 97.2vw;
+    margin: 0px;
+    padding: 20px;
+    display: flexbox;
+    flex-direction: row; 
+    text-align: center; 
+}
+
+#homelogo {
+    display: inline-block;
+    background-size:75px;
+    position: relative;
+    top: 55px;
+    border-radius: 35%;
+    background-image: url("photo.jpg");
+    height: 75px;
+    width: 75px;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    display: inline-block;
+    background-size:75px;
+    position: relative;
+    top: 0px;
+    border-radius: 35%;
+    background-image: url("photo.jpg");
+    height: 75px;
+    width: 75px;
+    background-repeat: no-repeat;
+}
+
+section{
+    background-color: rgb(12, 6, 66);
+    margin: 0px;
+    padding: 20px;
+}
+
+h2{
+    color: rgb(176, 112, 218);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+h3 {
+    color: orange;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+    color: rgb(60, 209, 189);
+    text-align: center;
+    font-family: comic sans ms;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: rgb(66, 0, 124);
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: honeydew;
+    font-weight: normal;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    color: honeydew;
+    text-align: center;
+}
+
+a{
+    color: rgb(54, 206, 54);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+a:hover {
+    color: rgb(196, 17, 17);
+}
+
+.curriculum {
+    text-align: left;
+}
+
+p {
+    color: honeydew;
+    font-family: monospace;
+    font-size: 17px;
+    text-indent: 50px;
+}
+
+.notab{
+    text-indent: 0px;
+}
+
+.beegee{
+    background-color: peachpuff;
+}
+
+.bubble {
+    padding: 20px 12px 20px 12px;
+    display: inline-block;
+}
+
+.dubble {
+    padding: 20px 27px 20px 27px;
+    display: inline-block;
+}
+
+.hubble {
+    padding: 20px 12px 20px 30px;
+    display: inline-block;
+}
+
+#pringle {
+    padding-left: 300px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.eval {
+    color: honeydew;
+    font-family: monospace;
+    font-size: 17px;
+    text-indent: 50px;
+    text-align: center; 
+}
+
+.loi {
+    background-color: rgb(14, 14, 14);
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+ul li{
+    list-style-type: none;
+    font-family: andale mono, 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: orange;
+    text-align: center;
+    font-size: 18.5px;
+    padding: 3px;
+}
+
+ol li{
+    list-style-type: lower-latin;
+    font-family: andale mono, 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: orange;
+    text-align: left;
+}
+
+.izqui {
+    list-style-type: lower-latin;
+    font-family: andale mono, 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: orange;
+    text-align: left;
+}
+
+.soft {
+    border-radius: 40%;
+}
+
+.skinny {
+  width: 50%;
+  margin: auto;
+  padding: 10px 40px 20px 40px;
+  
+}
